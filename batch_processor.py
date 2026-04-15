@@ -14,3 +14,4 @@ def process_transactions(transactions):
 def apply_tax(amount, tax_rate):
     # Tax rate hardcoded para demo
     return amount * (1 + tax_rate)
+ 
