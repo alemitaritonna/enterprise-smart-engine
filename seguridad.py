@@ -20,4 +20,4 @@ if __name__ == "__main__":
     print(authenticate_user("admin", "SuperSecret123!"))
     
     # Esto lanzará un KeyError y el agente de testing debería detectarlo
-    print(get_user_config("999"))
+    print(get_user_config("999")) 
